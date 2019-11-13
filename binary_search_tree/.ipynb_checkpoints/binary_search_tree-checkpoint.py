@@ -32,6 +32,7 @@ class BinarySearchTree:
         #To search a given key in Binary Search Tree, we first compare it with root, 
         # if the key is present at root, we return root. If key is greater than root's key, 
         # we recur for right subtree of root node. Otherwise we recur for left subtree.
+       
         if self.value == target:
             return True
         elif self.value > target:
@@ -71,14 +72,8 @@ class BinarySearchTree:
     # Print all the values in order from low to high
     # Hint:  Use a recursive, depth first traversal
     def in_order_print(self, node):
-        if self.left:
-            self.left.in_order_print(node)
-        else:
-            print(self.value)
-        if self.right.in_order_print(node)
-            
-        
-            
+        pass
+
     # Print the value of every node, starting with the given node,
     # in an iterative breadth first traversal
     def bft_print(self, node):
